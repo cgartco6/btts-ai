@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: btts-ai
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: btts-ai
+  template:
+    metadata:
+      labels:
+        app: btts-ai
+    spec:
+      containers:
+        - name: btts-ai
+          image: btts-ai:latest
+          resources:
+            limits:
+              cpu: "1"
+              memory: "1Gi"
