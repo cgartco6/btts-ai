@@ -1,0 +1,10 @@
+leagues: all
+min_ev: 0.08
+confidence_min: 0.65
+model_retrain_hour: "02:00"
+poll_live_odds_seconds: 120
+
+telegram:
+  enabled: true
+  bot_token: "YOUR_BOT_TOKEN"
+  chat_id: "YOUR_CHAT_ID"
