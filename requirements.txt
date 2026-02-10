@@ -1,0 +1,12 @@
+playwright
+beautifulsoup4
+lxml
+pandas
+numpy
+scikit-learn
+scipy
+sqlite-utils
+pyyaml
+schedule
+requests
+rapidfuzz
